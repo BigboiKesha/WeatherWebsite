@@ -6,9 +6,8 @@ html {
   font-family: "Noto Sans", sans-serif;
 }
 body {
-background-color: lightgray;
+  background-color: lightgray;
 }
-
 
 .visually-hidden {
   clip: rect(0 0 0 0);
@@ -23,14 +22,13 @@ background-color: lightgray;
 .nav {
   display: flex;
   justify-content: center;
-  background-color:black
+  background-color: black;
 }
 
 .nav h1 {
   color: skyblue;
   font-family: Arial, sans-serif;
 }
-
 
 .box {
   display: flex;
@@ -52,13 +50,11 @@ background-color: lightgray;
 .box i {
   font-size: 30px;
   color: #333;
-  
 }
 
 .box h2 {
   font-size: 30px;
   color: #333;
-  
 }
 
 .box p {
@@ -75,6 +71,5 @@ background-color: lightgray;
   .box-item {
     font-size: 12px;
     width: auto;
-  } 
-  
+  }
 }
