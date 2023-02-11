@@ -5,6 +5,10 @@
 html {
   font-family: "Noto Sans", sans-serif;
 }
+body {
+background-color: lightgray;
+}
+
 
 .visually-hidden {
   clip: rect(0 0 0 0);
@@ -14,4 +18,63 @@ html {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color:black
+}
+
+.nav h1 {
+  color: skyblue;
+  font-family: Arial, sans-serif;
+}
+
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: lightgray;
+  padding: 20px;
+}
+.box-item {
+  background-color: skyblue;
+  border: 3px solid black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 100px;
+}
+.box i {
+  font-size: 30px;
+  color: #333;
+  
+}
+
+.box h2 {
+  font-size: 30px;
+  color: #333;
+  
+}
+
+.box p {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .box {
+    flex-direction: column;
+  }
+
+  .box-item {
+    font-size: 12px;
+    width: auto;
+  } 
+  
 }
