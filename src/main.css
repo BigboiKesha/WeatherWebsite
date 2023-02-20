@@ -59,6 +59,7 @@ body {
 
 .box p {
   font-size: 30px;
+  font-weight: bold;
   color: #333;
   text-align: center;
 }
